@@ -1,0 +1,216 @@
+html,
+body {
+    height: 100%;
+}
+
+.wrap {
+    min-height: 100%;
+    height: auto;
+    margin: 0 auto -60px;
+    padding: 0 0 60px;
+    background: url('/web/img/background_dark.jpg');
+    background-size: contain;
+    color: white;
+}
+
+.wrap > .container {
+    padding: 70px 15px 20px;
+    
+}
+
+.footer {
+    height: 60px;
+    background-color: #f5f5f5;
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+    background: url(/web/img/r4_blur_7.jpg);
+    border: 2px solid transparent;
+    color: white;
+}
+
+.watch-description {
+    backdrop-filter: blur(25px); 
+    padding: 10px; 
+    border-radius: 20px;
+    margin-left: 100px; 
+    border: 10px solid white;
+    text-shadow: black 0 0 10px;
+    color: white;
+}
+
+.jumbotron {
+    text-align: center;
+    background-color: transparent;
+    background: url('/web/img/background.jpg');
+    color: white;
+    border-radius: 15px;
+    background-size: contain;
+    filter: opacity(75%) brightness(90%);
+}
+
+.jumbotron .btn {
+    font-size: 21px;
+    padding: 14px 24px;
+    background: white;
+    color: black;
+    border: 2px solid white;
+    border-radius: 15px;
+}
+
+.jumbotron .btn:active {
+    font-size: 21px;
+    padding: 14px 24px;
+    background: url('/web/img/r4.jpg');
+    background-size: contain;
+    color: white;
+    border: 2px solid white;
+    border-radius: 15px;
+}
+
+.col-lg-4 {
+    border: 0px slid transparent;
+    /* background: url(/web/img/r4_blur_7.jpg) 40% 60%; */
+    color: white;
+    filter: opacity(80%);
+    
+}
+
+.col-lg-4 .btn:active{
+    background: url('/web/img/r4.jpg');
+    background-size: contain;
+    color: white;
+    border: 2px solid white;
+    border-radius: 15px;
+    
+}
+
+table {
+    background: white;
+    color: black;
+}
+
+.not-set {
+    color: #c55;
+    font-style: italic;
+}
+
+/* add sorting icons to gridview sort links */
+a.asc:after, a.desc:after {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    padding-left: 5px;
+}
+
+a.asc:after {
+    content: /*"\e113"*/ "\e151";
+}
+
+a.desc:after {
+    content: /*"\e114"*/ "\e152";
+}
+
+
+
+.sort-numerical a.asc:after {
+    content: "\e153";
+}
+
+.sort-numerical a.desc:after {
+    content: "\e154";
+}
+
+.sort-ordinal a.asc:after {
+    content: "\e155";
+}
+
+.sort-ordinal a.desc:after {
+    content: "\e156";
+}
+
+.grid-view th {
+    white-space: nowrap;
+}
+
+.hint-block {
+    display: block;
+    margin-top: 5px;
+    color: #999;
+}
+
+.error-summary {
+    color: #a94442;
+    background: #fdf7f7;
+    border-left: 3px solid #eed3d7;
+    padding: 10px 20px;
+    margin: 0 0 15px 0;
+}
+
+.navbar-inverse {
+    background: url('/web/img/r4_blur.jpg');
+    filter: opacity(95%);
+    border: 0px;
+}
+
+
+.navbar-admin {
+    background: url('/web/img/r4.jpg');
+    filter: opacity(100%);
+    color: white;
+    font-weight: bold;
+    border: 0px;
+    text-shadow: black 0 0 10px;
+}
+
+.navbar-admin a {
+    text-decoration: none;
+    color: white;
+}
+
+
+table a {
+    color: #FF69B4;
+}
+
+.navbar-nav li:hover {
+    background: url('/web/img/background_dark.jpg');
+    background-size: contain;
+}
+
+.navbar-nav > li.active {
+    background: url('/web/img/r4.jpg');
+    background-size: contain;
+}
+
+/* .navbar-nav li.active:before {
+    background: url('/web/img/r4.jpg');
+    background-size: contain;
+} */
+
+/* align the logout "link" (button in form) of the navbar */
+.nav li > form > button.logout {
+    padding: 15px;
+    border: none;
+}
+
+@media(max-width:767px) {
+    .nav li > form > button.logout {
+        display:block;
+        text-align: left;
+        width: 100%;
+        padding: 10px 15px;
+    }
+}
+
+.nav > li > form > button.logout:focus,
+.nav > li > form > button.logout:hover {
+    text-decoration: none;
+}
+
+.nav > li > form > button.logout:focus {
+    outline: none;
+}
